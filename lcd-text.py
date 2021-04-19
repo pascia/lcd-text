@@ -56,7 +56,7 @@ for i in range(len(lcdtext)):
     for a in range(6):
         scrnp[75+15+a,28+5+(i*50)-a:60-5+(i*50)+a]=(lcdtext[i])[6]
 
-#Photo desing part
+#Photo design part
 fig = plt.figure()
 plt.imshow(scrnp, cmap="gray", vmax=7, vmin=0)
 ax = plt.gca()
